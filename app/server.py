@@ -8,6 +8,8 @@ import logging
 import os
 import pytest
 
+# I added this line
+
 app = Flask(__name__)
 app.config['DEBUG'] = False
 basedir = os.path.abspath(os.path.dirname(__file__))
